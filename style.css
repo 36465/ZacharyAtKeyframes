@@ -7,8 +7,7 @@
     margin-right: auto;
     border-radius: 10%;
     display: inline-block;
-    animation: rightarmfunction 30s;
-    animation-iteration-count: 1;
+    animation: rightarmfunction 30s infinite;
     transform-origin: 100% 0%;
 }
 
@@ -46,14 +45,204 @@
 }
 
 
-.imgv {
+.white {
+
+    background: black;
+    width: 20%;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
+    display: inline-block;
+    animation: whitefunction 5s infinite;
+    transform-origin: 100% 0%;
+}
+
+
+@keyframes whitefunction {
+
+    0% {
+        transform: rotate(0deg);
+    }
+
+    10% {
+        transform: rotate(-90deg);
+    }
+
+    20% {
+        transform: rotate(-0deg);
+    }
+
+    50% {
+        transform: rotate(-90deg);
+    }
+
+    60% {
+        transform: rotate(-0deg);
+    }
+
+    75% {
+        transform: rotate(-90deg);
+    }
+
+    100% {
+        transform: rotate(-90deg);
+    }
+
+}
+
+
+.yellow {
+
+    background: black;
+    width: 20%;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
+    display: inline-block;
+    animation: yellowfunction 25s infinite;
+    transform-origin: 100% 0%;
+}
+
+
+@keyframes yellowfunction {
+
+    0% {
+        transform: rotate(0deg);
+    }
+
+    16.4% {
+        transform: rotate(120deg);
+    }
+
+    20.5% {
+        transform: rotate(0deg);
+    }
+
+    25.5% {
+        transform: rotate(120deg);
+    }
+
+    30.5% {
+        transform: rotate(0deg);
+    }
+
+    75% {
+        transform: rotate(120deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+
+}
+
+
+.purple {
+
+    background: black;
+    width: 20%;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
+    display: inline-block;
+    animation: purplefunction 15s infinite;
+    transform-origin: 100% 0%;
+}
+
+
+@keyframes purplefunction {
+
+    0% {
+        transform: rotate(0deg);
+    }
+
+    16.4% {
+        transform: rotate(120deg);
+    }
+
+    20.5% {
+        transform: rotate(0deg);
+    }
+
+    25.5% {
+        transform: rotate(120deg);
+    }
+
+    30.5% {
+        transform: rotate(0deg);
+    }
+
+    75% {
+        transform: rotate(120deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+
+}
+
+
+.green {
+
+    background: black;
+    width: 20%;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
+    display: inline-block;
+    animation: greenfunction 8s infinite;
+    transform-origin: 100% 0%;
+}
+
+
+@keyframes greenfunction {
+
+    0% {
+        transform: rotate(45deg);
+    }
+
+    16.4% {
+        transform: rotate(90deg);
+    }
+
+    20.5% {
+        transform: rotate(20deg);
+    }
+
+    25.5% {
+        transform: rotate(0deg);
+    }
+
+    30.5% {
+        transform: rotate(120deg);
+    }
+
+    75% {
+        transform: rotate(50deg);
+    }
+
+    100% {
+        transform: rotate(120deg);
+    }
+
+}
+
+
+
+
+.text2 {
     position: relative;
-    animation: imgv 5s infinite;
+    animation: geeks2 5s infinite;
     animation-play-state: running
 }
 
 
-@keyframes imgv {
+@keyframes geeks2 {
     0% {
         background: rgb(255, 92, 119);
         border-radius: 0%;
@@ -86,21 +275,21 @@
 @keyframes section-2 {
     0% {
         background: rgb(186, 147, 7);
-        border-radius: 87%;
+        border-radius: 65%;
     }
 
     25% {
         background: rgb(210, 163, 81);
-        border-radius: 5;
+        border-radius: 5%;
     }
 
     50% {
         background: rgb(15, 51, 52);
-        border-radius: 45%;
+        border-radius: 90%;
     }
 
     100% {      
         background: rgb(85, 0, 14);
-        border-radius: 20%;
+        border-radius: 2%;
     }
 }
