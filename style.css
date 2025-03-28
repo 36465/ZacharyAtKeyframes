@@ -20,7 +20,6 @@
     }
 
     16.4% {
-
         transform: rotate(120deg);
     }
 
@@ -46,13 +45,15 @@
 
 }
 
-.text2 {
+
+.imgv {
     position: relative;
-    animation: geeks2 5s infinite;
+    animation: imgv 5s infinite;
     animation-play-state: running
 }
 
-@keyframes geeks2 {
+
+@keyframes imgv {
     0% {
         background: rgb(255, 92, 119);
         border-radius: 0%;
@@ -71,5 +72,35 @@
     100% {      
         background: rgb(85, 0, 14);
         border-radius: 0%;
+    }
+}
+
+
+.section-2 {
+    position: relative;
+    animation: section-2 5s infinite;
+    animation-play-state: running
+}
+
+
+@keyframes section-2 {
+    0% {
+        background: rgb(186, 147, 7);
+        border-radius: 87%;
+    }
+
+    25% {
+        background: rgb(210, 163, 81);
+        border-radius: 5;
+    }
+
+    50% {
+        background: rgb(15, 51, 52);
+        border-radius: 45%;
+    }
+
+    100% {      
+        background: rgb(85, 0, 14);
+        border-radius: 20%;
     }
 }
