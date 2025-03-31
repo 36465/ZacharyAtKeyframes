@@ -7,7 +7,7 @@
     margin-right: auto;
     border-radius: 10%;
     display: inline-block;
-    animation: rightarmfunction 30s infinite;
+    animation: rightarmfunction 10s infinite;
     transform-origin: 100% 0%;
 }
 
@@ -15,31 +15,31 @@
 @keyframes rightarmfunction {
 
     0% {
-        transform: rotate(0deg);
+        transform: rotate(20deg);
     }
 
     16.4% {
-        transform: rotate(120deg);
+        transform: rotate(48deg);
     }
 
     20.5% {
-        transform: rotate(0deg);
+        transform: rotate(10deg);
     }
 
     25.5% {
-        transform: rotate(120deg);
+        transform: rotate(10deg);
     }
 
     30.5% {
-        transform: rotate(0deg);
-    }
-
-    75% {
         transform: rotate(120deg);
     }
 
-    100% {
+    75% {
         transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(90deg);
     }
 
 }
@@ -109,31 +109,33 @@
 @keyframes yellowfunction {
 
     0% {
-        transform: rotate(0deg);
+        transform: rotate(100deg);;
     }
 
     16.4% {
-        transform: rotate(120deg);
+        transform: rotate(50deg);
     }
 
     20.5% {
-        transform: rotate(0deg);
+        transform: rotate(30deg);
     }
 
     25.5% {
-        transform: rotate(120deg);
+        transform: rotate(0deg);
+        translate: 100px 100px;
     }
 
     30.5% {
-        transform: rotate(0deg);
-    }
-
-    75% {
         transform: rotate(120deg);
     }
 
+    75% {
+        transform: rotate(90deg);
+    }
+
     100% {
-        transform: rotate(0deg);
+        transform: rotate(120deg);
+        translate: -100px -100px;
     }
 
 }
@@ -156,31 +158,33 @@
 @keyframes purplefunction {
 
     0% {
-        transform: rotate(0deg);
+        transform: rotate(10deg);
     }
 
-    16.4% {
-        transform: rotate(120deg);
+    14.3% {
+        transform: rotate(70deg);
+        translate: 600px 0px;
     }
 
-    20.5% {
-        transform: rotate(0deg);
+    28.6% {
+        transform: rotate(30deg);
     }
 
-    25.5% {
-        transform: rotate(120deg);
+    42.84% {
+        transform: rotate(70deg);
     }
 
-    30.5% {
-        transform: rotate(0deg);
+    57.143% {
+        transform: rotate(50deg);
+        translate: 0px 600px;
     }
 
-    75% {
-        transform: rotate(120deg);
+    85.7% {
+        transform: rotate(60deg);
     }
 
     100% {
-        transform: rotate(0deg);
+        transform: rotate(70deg);
     }
 
 }
@@ -245,22 +249,22 @@
 @keyframes geeks2 {
     0% {
         background: rgb(255, 92, 119);
-        border-radius: 0%;
+        border-radius: 80%;
     }
 
     25% {
         background: rgb(189, 175, 150);
-        border-radius: 50%;
+        border-radius: 20%;
     }
 
     50% {
         background: rgb(47, 0, 109);
-        border-radius: 50%;
+        border-radius: 0%;
     }
 
     100% {      
         background: rgb(85, 0, 14);
-        border-radius: 0%;
+        border-radius: 90%;
     }
 }
 
@@ -293,3 +297,94 @@
         border-radius: 2%;
     }
 }
+
+
+.text-navbar {
+    position: relative;
+    animation: navbar 5s infinite;
+    animation-play-state: running
+}
+
+
+@keyframes navbar {
+    0% {
+        background: rgb(255, 92, 119);
+        border-radius: 69%;
+    }
+
+    25% {
+        background: rgb(189, 175, 150);
+        border-radius: 420%;
+    }
+
+    50% {
+        background: rgb(47, 0, 109);
+        border-radius: 10%;
+    }
+
+    100% {      
+        background: rgb(85, 0, 14);
+        border-radius: 50%;
+    }
+}
+
+
+.section-3 {
+    position: relative;
+    animation: section-3 5s infinite;
+    animation-play-state: running
+}
+
+
+@keyframes section-3 {
+    0% {
+        background: rgb(255, 92, 119);
+        border-radius: 20%;
+    }
+
+    25% {
+        background: rgb(189, 175, 150);
+        border-radius: 60%;
+    }
+
+    50% {
+        background: rgb(47, 0, 109);
+        border-radius: 40%;
+    }
+
+    100% {      
+        background: rgb(85, 0, 14);
+        border-radius: 10%;
+    }
+}
+
+
+.footer {
+    position: relative;
+    animation: footer 5s infinite;
+    animation-play-state: running
+}
+
+
+@keyframes footer {
+    0% {
+        background: rgb(255, 92, 119);
+        border-radius: 90%;
+    }
+
+    25% {
+        background: rgb(189, 175, 150);
+        border-radius: 40%;
+    }
+
+    50% {
+        background: rgb(47, 0, 109);
+        border-radius: 100%;
+    }
+
+    100% {      
+        background: rgb(85, 0, 14);
+        border-radius: 0%;
+    }
+}
+
