@@ -208,6 +208,7 @@
 
     0% {
         transform: rotate(45deg);
+        translate: 10px 50px;
     }
 
     16.4% {
@@ -220,6 +221,7 @@
 
     25.5% {
         transform: rotate(0deg);
+        translate: 89px 48px;
     }
 
     30.5% {
@@ -248,22 +250,22 @@
 
 @keyframes geeks2 {
     0% {
-        background: rgb(255, 92, 119);
+        background: rgb(233, 145, 233);
         border-radius: 80%;
     }
 
     25% {
-        background: rgb(189, 175, 150);
+        background: rgb(134, 118, 61);
         border-radius: 20%;
     }
 
     50% {
-        background: rgb(47, 0, 109);
+        background: rgb(254, 25, 62);
         border-radius: 0%;
     }
 
     100% {      
-        background: rgb(85, 0, 14);
+        background: rgb(164, 37, 254);
         border-radius: 90%;
     }
 }
@@ -278,22 +280,22 @@
 
 @keyframes section-2 {
     0% {
-        background: rgb(186, 147, 7);
+        background: rgb(12, 220, 68);
         border-radius: 65%;
     }
 
     25% {
-        background: rgb(210, 163, 81);
+        background: rgb(191, 31, 19);
         border-radius: 5%;
     }
 
     50% {
-        background: rgb(15, 51, 52);
+        background: rgb(98, 95, 24);
         border-radius: 90%;
     }
 
     100% {      
-        background: rgb(85, 0, 14);
+        background: rgb(135, 31, 158);
         border-radius: 2%;
     }
 }
@@ -308,22 +310,22 @@
 
 @keyframes navbar {
     0% {
-        background: rgb(255, 92, 119);
+        background: rgb(190, 202, 50);
         border-radius: 69%;
     }
 
     25% {
-        background: rgb(189, 175, 150);
+        background: rgb(239, 11, 147);
         border-radius: 420%;
     }
 
     50% {
-        background: rgb(47, 0, 109);
+        background: rgb(233, 229, 53);
         border-radius: 10%;
     }
 
     100% {      
-        background: rgb(85, 0, 14);
+        background: rgb(157, 164, 198);
         border-radius: 50%;
     }
 }
@@ -338,22 +340,22 @@
 
 @keyframes section-3 {
     0% {
-        background: rgb(255, 92, 119);
+        background: rgb(218, 153, 146);
         border-radius: 20%;
     }
 
     25% {
-        background: rgb(189, 175, 150);
+        background: rgb(83, 221, 164);
         border-radius: 60%;
     }
 
     50% {
-        background: rgb(47, 0, 109);
+        background: rgb(47, 190, 78);
         border-radius: 40%;
     }
 
     100% {      
-        background: rgb(85, 0, 14);
+        background: rgb(255, 69, 255);
         border-radius: 10%;
     }
 }
@@ -368,22 +370,22 @@
 
 @keyframes footer {
     0% {
-        background: rgb(255, 92, 119);
+        background: rgb(111, 32, 143);
         border-radius: 90%;
     }
 
     25% {
-        background: rgb(189, 175, 150);
+        background: rgb(45, 112, 25);
         border-radius: 40%;
     }
 
     50% {
-        background: rgb(47, 0, 109);
+        background: rgb(255, 255, 255);
         border-radius: 100%;
     }
 
     100% {      
-        background: rgb(85, 0, 14);
+        background: rgb(255, 0, 0);
         border-radius: 0%;
     }
 }
